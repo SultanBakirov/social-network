@@ -1,0 +1,63 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Sultan's part */
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #199DE5;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+    background-color: #076490;
+    padding: 0.75rem 1.5rem;
+}
+
+.logo-name {
+    color: #FFFFFF;
+}
+
+.logo:hover {
+    background-color: #cccccc;
+}
+
+.logo:hover .logo-name {
+    color: black;
+}
+
+.house-icon {
+    margin-right: 1rem;
+}
+
+.logo:hover i {
+    color: black;
+}
+
+.nav-icons {
+    background-color: #199DE5;
+    padding: 0.95rem 1.5rem;
+}
+
+a:hover .fa-earth-americas {
+    background-color: white;
+    color: black;
+}
+
+a:hover .fa-user {
+    background-color: white;
+    color: black;
+}
+
+a:hover .fa-envelope {
+    background-color: white;
+    color: black;
+}
