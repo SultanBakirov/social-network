@@ -61,3 +61,178 @@ a:hover .fa-envelope {
     background-color: white;
     color: black;
 }
+
+
+/*  Main    */
+
+div.main{
+    background-color: #f5f7f8;
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 20px 10px ;
+
+}
+
+/* Gulnur's part */
+
+aside.left{
+    width: 25%;
+    font-family: "Open Sans", sans-serif;
+   
+    
+}
+
+div.profile-box{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.03);
+    padding: 10px;
+    border-radius: 6px;
+    background-color: white;
+
+    p{
+        line-height: 1.8rem;
+        font-size: 0.8rem;
+
+        svg{
+            width: 10px;
+            fill: #6f6f6f;
+        }
+    }
+
+}
+
+div.my-profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+
+    h4{
+        font-weight: 400;
+    }
+    img.profile-picture{
+        width: 85px;
+        border-radius: 50%;
+       
+    }
+}
+
+div.gallery-box{
+    font-size: 0.8rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
+    margin-top: 20px;
+
+    button{
+        width: 100%;
+        border: none;
+        background-color:  #199DE5;
+        padding: 0.7rem;
+        color: #FFFFFF;
+        text-align: left;
+        cursor: pointer;
+
+        svg{
+            width: 0.7rem;
+            fill: white;
+            margin-right: 0.7rem;
+           
+        }
+    }
+
+    button:hover{
+        svg{
+            fill:black;
+        }
+        background-color: rgb(202, 202, 202);
+        color: black;
+    }
+  
+    p{
+        padding: 0.7rem;
+        background-color: white;
+    }
+}
+
+div.gallery-photos{
+    img{
+        width: 80%;
+        margin: 0.3rem;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    padding: 0.8rem;
+}
+
+div.interests-box{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
+    font-size: 0.6rem;
+    padding: 0.6rem;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: white;
+
+    h5{
+        font-weight: 400;
+        font-size: 0.7rem;
+        margin: 10px 0 10px 0;
+    }
+
+    li{
+        list-style-type: none;
+        display: inline-block;
+        background-color: #199DE5;
+        padding: 0.1rem 0.3rem;
+        margin: 0.1rem;
+        color: white;
+    }
+    li#dark-blue{
+        background-color: #076490;
+    }
+    li#dark-grey{
+        background-color: #9599a3;
+        color: black;
+    }
+    li#grey{
+        background-color: #cccccc;
+        color: black;
+    }
+    li#light-grey{
+        background-color: #e7e7e7;
+        color: black;
+    }
+}
+
+div.pop-up-box{
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
+    font-size: 0.8rem;
+    border-radius: 6px;
+    background-color: #dfe5e8;
+    padding: 0.8rem;
+
+    h4{
+        font-weight: 600;
+    }
+
+    svg{
+        width: 8px;
+        background-color: #a0accf6e;
+        padding: 0.5rem 0.7rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 4px 0 0;
+        cursor: pointer;
+    }
+    svg:hover{
+        background-color: rgb(202, 202, 202);
+    }
+
+}
+
+   
+
+
