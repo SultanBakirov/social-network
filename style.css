@@ -62,9 +62,6 @@ a:hover .fa-envelope {
     color: black;
 }
 
-
-
-
 /*  Main    */
 
 div.main{
@@ -235,6 +232,10 @@ div.pop-up-box{
 
 }
 
-   
 
-
+/* Mobile device */
+@media only screen and (max-width: 595px) {
+    .navbar {
+        display: none;
+  }
+}
