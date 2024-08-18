@@ -2,215 +2,220 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
-}
-
-/* Sultan's part */
-.nav {
+  }
+  
+  /* Sultan's part */
+  .nav {
     display: flex;
     align-items: center;
     background-color: #199DE5;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
-}
-
-.logo {
+  }
+  
+  .logo {
     background-color: #076490;
     padding: 0.75rem 1.5rem;
-}
-
-.logo-name {
+  }
+  
+  .logo-name {
     color: #FFFFFF;
-}
-
-.logo:hover {
+  }
+  
+  .logo:hover {
     background-color: #cccccc;
-}
-
-.logo:hover .logo-name {
+  }
+  
+  .logo:hover .logo-name {
     color: black;
-}
-
-.house-icon {
+  }
+  
+  .house-icon {
     margin-right: 1rem;
-}
-
-.logo:hover i {
+  }
+  
+  .logo:hover i {
     color: black;
-}
-
-.nav-icons {
+  }
+  
+  .nav-icons {
     background-color: #199DE5;
     padding: 0.95rem 1.5rem;
-}
-
-a:hover .fa-earth-americas {
+  }
+  
+  a:hover .fa-earth-americas {
     background-color: white;
     color: black;
-}
-
-a:hover .fa-user {
+  }
+  
+  a:hover .fa-user {
     background-color: white;
     color: black;
-}
-
-a:hover .fa-envelope {
+  }
+  
+  a:hover .fa-envelope {
     background-color: white;
     color: black;
-}
-
-/*  Main    */
-
-div.main{
+  }
+  
+  /*  Main    */
+  
+  div.main {
     background-color: #f5f7f8;
     display: flex;
     /* justify-content: space-evenly; */
-    padding: 20px 10px ;
-
-}
-
-/* Gulnur's part */
-
-aside.left{
+    padding: 20px 10px;
+  
+  }
+  
+  /* Gulnur's part */
+  
+  aside.left {
     width: 25%;
     font-family: "Open Sans", sans-serif;
-   
-    
-}
-
-div.profile-box{
+  }
+  
+  div.profile-box {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.03);
     padding: 10px;
     border-radius: 6px;
     background-color: white;
-
-    p{
-        line-height: 1.8rem;
-        font-size: 0.8rem;
-
-        svg{
-            width: 10px;
-            fill: #6f6f6f;
-        }
+  
+    p {
+      line-height: 1.8rem;
+      font-size: 0.8rem;
+  
+      svg {
+        width: 10px;
+        fill: #6f6f6f;
+      }
     }
-
-}
-
-div.my-profile{
+  
+  }
+  
+  div.my-profile {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 15px;
     margin-bottom: 20px;
-
-    h4{
-        font-weight: 400;
+  
+    h4 {
+      font-weight: 400;
     }
-    img.profile-picture{
-        width: 85px;
-        border-radius: 50%;
-       
+  
+    img.profile-picture {
+      width: 85px;
+      border-radius: 50%;
+  
     }
-}
-
-div.gallery-box{
+  }
+  
+  div.gallery-box {
+  
     font-size: 0.8rem;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
     margin-top: 20px;
-
-    button{
-        width: 100%;
-        border: none;
-        background-color:  #199DE5;
-        padding: 0.7rem;
-        color: #FFFFFF;
-        text-align: left;
-        cursor: pointer;
-
-        svg{
-            width: 0.7rem;
-            fill: white;
-            margin-right: 0.7rem;
-           
-        }
-    }
-
-    button:hover{
-        svg{
-            fill:black;
-        }
-        background-color: rgb(202, 202, 202);
-        color: black;
+  
+    button {
+      width: 100%;
+      border: none;
+      background-color: #199DE5;
+      padding: 0.7rem;
+      color: #FFFFFF;
+      text-align: left;
+      cursor: pointer;
+  
+      svg {
+        width: 0.7rem;
+        fill: white;
+        margin-right: 0.7rem;
+  
+      }
     }
   
-    p{
-        padding: 0.7rem;
-        background-color: white;
+    button:hover {
+      svg {
+        fill: black;
+      }
+  
+      background-color: rgb(202, 202, 202);
+      color: black;
     }
-}
-
-div.gallery-photos{
-    img{
-        width: 35vw;
-        width: 100%;
-        margin: 0.3rem;
-        
+  
+    p {
+      padding: 0.7rem;
+      background-color: white;
     }
-
+  }
+  
+  div.gallery-photos {
+    img {
+      width: 35vw;
+      width: 100%;
+      margin: 0.3rem;
+  
+    }
+  
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
     padding: 0.8rem;
-
-    div.photos-flexbox{
-        margin-right: 10px;
+  
+    div.photos-flexbox {
+      margin-right: 10px;
     }
-
-}
-
-div.interests-box{
+  
+  }
+  
+  div.interests-box {
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
     font-size: 0.6rem;
     padding: 0.6rem;
     margin-top: 20px;
     border-radius: 6px;
     background-color: white;
-
-    h5{
-        font-weight: 400;
-        font-size: 0.7rem;
-        margin: 10px 0 10px 0;
+  
+    h5 {
+      font-weight: 400;
+      font-size: 0.7rem;
+      margin: 10px 0 10px 0;
     }
-
-    li{
-        list-style-type: none;
-        display: inline-block;
-        background-color: #199DE5;
-        padding: 0.1rem 0.3rem;
-        margin: 0.1rem;
-        color: white;
+  
+    li {
+      list-style-type: none;
+      display: inline-block;
+      background-color: #199DE5;
+      padding: 0.1rem 0.3rem;
+      margin: 0.1rem;
+      color: white;
     }
-    li#dark-blue{
-        background-color: #076490;
+  
+    li#dark-blue {
+      background-color: #076490;
     }
-    li#dark-grey{
-        background-color: #9599a3;
-        color: black;
+  
+    li#dark-grey {
+      background-color: #9599a3;
+      color: black;
     }
-    li#grey{
-        background-color: #cccccc;
-        color: black;
+  
+    li#grey {
+      background-color: #cccccc;
+      color: black;
     }
-    li#light-grey{
-        background-color: #e7e7e7;
-        color: black;
+  
+    li#light-grey {
+      background-color: #e7e7e7;
+      color: black;
     }
-}
-
-div.pop-up-box{
+  }
+  
+  div.pop-up-box {
     position: relative;
     margin-top: 20px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
@@ -218,40 +223,258 @@ div.pop-up-box{
     border-radius: 6px;
     background-color: #dfe5e8;
     padding: 0.8rem;
-
-    h4{
-        font-weight: 600;
+  
+    h4 {
+      font-weight: 600;
     }
-
-    svg{
-        width: 8px;
-        background-color: #a0accf6e;
-        padding: 0.5rem 0.7rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        border-radius: 0 4px 0 0;
-        cursor: pointer;
+  
+    svg {
+      width: 8px;
+      background-color: #a0accf6e;
+      padding: 0.5rem 0.7rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 0 4px 0 0;
+      cursor: pointer;
     }
-    svg:hover{
-        background-color: rgb(202, 202, 202);
+  
+    svg:hover {
+      background-color: rgb(202, 202, 202);
     }
-
-}
-
-
-/* Mobile device */
-@media only screen and (max-width: 595px) {
-    .navbar, div.interests-box,div.pop-up-box {
-        display: none;
+  
   }
-  aside.left{
+  
+  /* ---------------------- Timur's part ------------------------- */
+  .middle {
+    width: 60%;
+    padding: 0 1em;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .user-post-box {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .post-input {
     width: 100%;
   }
-  div.gallery-photos{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  
+  .post-input .status {
+    border: 1px solid lightgrey;
+    padding: 0.5em;
   }
-}
+  
+  .user-post-box button {
+    background-color: #199DE5;
+    border: 0.1px;
+    color: white;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+  }
+  
+  .user-post-box i {
+    padding: 0.5em;
+  }
+  
+  .user-post-box button:hover {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  .user-post .user-post-profile-img {
+    width: 4em;
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .user-post .name {
+    font-size: 1.2em;
+    padding: 1em 3em;
+    margin: 1em;
+  }
+  
+  hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 1.5em 0;
+    clear: both;
+  }
+  
+  .user-post .min {
+    float: right;
+    position: absolute;
+    top: 2em;
+    right: 1em;
+    color: lightgrey;
+  }
+  
+  .user-post p {
+    margin: 1.5em 0;
+  }
+  
+  .first-post-img {
+    display: flex;
+  }
+  
+  .first-post-img img {
+    width: 49%;
+    padding: 0.4em;
+  }
+  
+  .user-post .bottom-img {
+    width: 100%;
+  }
+  
+  /* ----------------------- Nailya's Part ----------------------- */
+  .right {
+    width: 15%;
+    font-family: "Open Sans", sans-serif;
+  }
+  .right p {
+    margin: 1em;
+  }
+  .upcoming-events-container,
+  .friend-request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .upcoming-events-container img {
+    width: 90%;
+  }
+  
+  .upcoming-events-container button {
+    width: 90%;
+    border: none;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    background-color: lightgray;
+  }
+  
+  .upcoming-events-container button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+  }
+  
+  .friend-request img {
+    width: 50%;
+  }
+  
+  .friend-request .buttons {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 1em;
+  }
+  
+  .buttons .accept,
+  .buttons .decline {
+    flex-grow: 1;
+    border: none;
+    padding: 1em;
+    color: white;
+  }
+  
+  .accept {
+    background-color: #98cf98;
+  }
+  
+  .decline {
+    background-color: #fb9289;
+  }
+  
+  .accept:hover,
+  .decline:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    color: grey;
+  }
+  
+  .ads {
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .bug {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+  }
+  
+  .upcoming-events-container,
+  .friend-request,
+  .ads,
+  .bug {
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    border-radius: 4px;
+  }
+  
+  /* ---------------------- Footer ---------------------- */
+  .section3 {
+    color: white;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+  
+  }
+  .fFirst {
+    background-color: #199DE5;
+    padding: 14px;
+  }
+  .fFirst h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 10px 0px;
+  }
+  .fSecond {
+    background-color: #076490;
+    padding: 0.15px 16px;    
+    font-size: 1rem;
+  }
+  .fSecond p {
+    margin: 15px 0px;
+  }
+  .fSecond a {
+    color: white;
+  }
+  
+  
+  /* Mobile device */
+  @media only screen and (max-width: 595px) {
+  
+    .navbar,
+    div.interests-box,
+    div.pop-up-box {
+      display: none;
+    }
+  
+    aside.left {
+      display: flex;
+      width: 100%;
+    }
+  
+    div.gallery-photos {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    /* -------------------- Timur's part -------------------- */
+    
+    .middle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+  }
