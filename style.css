@@ -61,3 +61,10 @@ a:hover .fa-envelope {
     background-color: white;
     color: black;
 }
+
+/* Mobile device */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+}
