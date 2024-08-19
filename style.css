@@ -15,6 +15,7 @@
     background-color: #199DE5;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
+   
   }
   
   .logo {
@@ -77,6 +78,8 @@
   aside.left {
     width: 25%;
     font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
   }
   
   div.profile-box {
@@ -276,10 +279,12 @@
     color: white;
     padding: 0.5em 1em;
     margin-top: 1em;
+    cursor: pointer;
   }
   
   .user-post-box i {
     padding: 0.5em;
+
   }
   
   .user-post-box button:hover {
@@ -467,13 +472,24 @@
       align-items: center;
   
     }
+
+    div.main{
+      flex-direction: column;
+      align-items: center;
+     
+    }
   
     /* -------------------- Timur's part -------------------- */
     
-    .middle {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+     .right {
+      
+      width: 97%;
+      
+     
+    }
+
+    .middle{
+      width: 97%;
     }
   
   
